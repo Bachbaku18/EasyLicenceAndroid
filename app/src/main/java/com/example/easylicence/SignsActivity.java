@@ -1,12 +1,17 @@
 package com.example.easylicence;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.Menu;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.example.easylicence.adapter.SignsAdapter;
@@ -18,8 +23,13 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SignsActivity extends AppCompatActivity {
-    RecyclerView recyclerView;
-    List<TrafficSigns> signs;
+    private RecyclerView recyclerView;
+    private List<TrafficSigns> signs;
+
+    private SignsAdapter signsAdapter;
+
+    private SearchView searchView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,14 +89,38 @@ public class SignsActivity extends AppCompatActivity {
         recyclerView.setAdapter(new SignsAdapter(getApplicationContext(),signs));
 
 
-
-
-
-
-
-
-
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.sign_menu,menu);
 
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        searchView.setMaxWidth(Integer.MAX_VALUE);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                signsAdapter.getFilter().filter(query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                signsAdapter.getFilter().filter(newText);
+                return false;
+            }
+        });
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (!searchView.isIconified()){
+            searchView.setIconified(true);
+            return;
+        }
+        super.onBackPressed();
+    }
 }

@@ -6,8 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imageview"
         android:layout_marginRight="10dp"
         android:layout_centerVertical="true"
@@ -19,8 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_toEndOf="@id/imageview"
-        android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textColor="@color/lavender"
+        android:textSize="30dp"
         tools:text="Code" />
 
     <TextView
