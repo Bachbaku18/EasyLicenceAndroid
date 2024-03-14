@@ -11,16 +11,25 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     protected long backpressTime;
     CardView signsCard;
+    CardView quiz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         signsCard = findViewById(R.id.Signs);
+        quiz = findViewById(R.id.Quiz);
         signsCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SignsActivity.class);
+                startActivity(intent);
+            }
+        });
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RandomQuizActivity.class);
                 startActivity(intent);
             }
         });
