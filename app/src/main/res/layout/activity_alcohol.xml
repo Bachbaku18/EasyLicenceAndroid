@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlcoholActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Tra cứu luật giao thông"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="1. Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn nhưng chưa vượt quá 50 mg/100 ml máu hoặc chưa vượt quá 0.25 mg/1 l khí thở"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 10 tháng đến 12 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="2. Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn mà từ 50 mg/100 ml máu đén 80 mg/100 ml máu hoặc từ 0.25 mg đến 0.4 mg/1 l khí thở"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 16.000.000 đồng đến 18.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 16 tháng đến 18 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="3. Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn mà vượt quá 80 mg/100 ml máu hoặc vượt quá 0.4 mg/1 l khí thở"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="4. Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="5. Điều khiển xe trên đường mà trong cơ thể có chất ma tuý"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="6. Không chấp hành yêu cầu kiểm tra về chất ma tuý của người thi hành công vụ"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng và bị tước quyền sử dụng Giấy phép lái xe từ 22 tháng đến 24 tháng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Danh sách trung tâm đào tạo tại Hà Nội:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm dạy nghề và đào tạo lái xe C500 "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Trần Phú, Mộ Lao, Hà Đông, Hà Nội\n Đơn vị chủ quản: Học viện An ninh nhân dân"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm đào tạo lái xe Sao Thủ Đô"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Xuân La, Tây Hồ, Hà Nội"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm đào tạo lái xe – Học viện Cảnh sát Nhân dân"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 118B1-TT Thành Công, Ba Đình, Hà Nội"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trường Trung cấp Kỹ thuật công binh "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Km1, Quốc lộ 32, Xã Phú Sơn, Ba Vì, Hà Nội "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Đào tạo Lạc Hồng "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Xuân Tảo, Bắc Từ Liêm, Hà Nội \n Đơn vị chủ quản: Tổng hội Cơ khí Việt Nam "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề sửa chữa lái xe ô tô Việt Thanh – Công ty TNHH Vận tải Việt Thanh "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Số 186 Đường Láng, Phường Thịnh Quang, Quận Đống Đa, Hà Nội \n Đơn vị chủ quản: Công ty TNHH Vận tải Việt Thanh "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề, đào tạo và sát hạch lái xe – Trường ĐH PCCC "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 243 Khuất Duy Tiến,  Thanh Xuân,  Hà Nội \n Đơn vị chủ quản: Trường Đại học Phòng cháy chữa cháy "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề Sao Bắc Việt Hà Nội "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ:  627 Vũ Tông Phan – Thanh Xuân – Hà Nội \n Đơn vị chủ quản: Công ty cổ phần Đầu tư Sao Bắc Việt "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề Thái Việt "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Thôn Kiều Thị , Xã Thắng Lợi, Huyện Thường Tín, Thành phố Hà Nội \n Đơn vị chủ quản: Công ty cổ phần Đầu tư Thái Việt "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề và đào tạo lái xe Victoria "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Số 6 Dương Đình Nghệ, Yên Hoà, Cầu Giấy, Hà Nội \n Đơn vị chủ quản: Công ty TNHHNN MTV Đầu tư Thương mại và Du lịch Thắng Lợi "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trường trung cấp Ngọc Hà "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Thôn Trung Hậu, Xã Tiền Phong, Huyện Mê Linh, Thành phố Hà Nội \n Đơn vị chủ quản: Công ty TNHH Xây dựng và Thương mại Ngọc Hà "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề lái xe cơ giới đường bộ Hà An "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 17 Lô 3 Đền Lừ 1, Phường Hoàng Văn Thụ, Quận Hoàng Mai, Hà Nội \n Đơn vị chủ quản: Công ty CP Vật tư dịch vụ vận tải Hà An "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Đào tạo và Bồi dưỡng Nghiệp vụ – CTCP Đầu tư và PT Vận tải "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Thôn Đạc Tài, Xã Mai Đình, Huyện Sóc Sơn, Hà Nội "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề và Đào tạo Sát hạch lái xe Hùng Vương "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Xã Yên Bình, Huyện Thạch Thất, Thành phố Hà Nội \n Sở Lao động – Thương binh và Xã hội Hà Nội "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Dạy nghề Lái xe Anh Tuấn    "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: Thôn Hoàng Xá, Xã Lại Thượng, Huyện Thạch Thất, Thành phố Hà Nội \n Đơn vị chủ quản: Công ty Cổ phần Đầu tư Thương mại TIC  "
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Danh sách trung tâm đào tạo tại TPHCM:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trường Đào Tạo và Sát Hạch Lái Xe Tp. HCM Thuộc Sở Giao Thông Vận Tải TP HỒ CHÍ MINH "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 23 Cù Lao, Phường 2, Q. Phú Nhuận, TP. HCM "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung Tâm Dạy Nghề và Đào Tạo Lái Xe GTVT Trung Ương 3 "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 73 Văn Cao, phường Phú Thọ Hoà, quận Tân Phú, TP. HCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm Hoàng Gia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 37-39 Nguyễn Thiện Thuật, Phường 2, Quận 3, TPHCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung tâm đào tạo và sát hạch lái xe Phát Tiến "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 541/2/2 Nguyễn Văn Tạo, Ấp 1, X.Long Thới, H.Nhà Bè, TP.HCM "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung Tâm Cửu Long"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 382 Cao Thắng, Phường 12, Quận 10, TP. HCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung Tâm Dạy Nghề Lái Xe Ôtô Trường Vinh "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 285 Đường số 5, P.Bình Trị Đông B, Q.Bình Tân, TPHCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trường Dạy Lái Xe Thế Giới "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 937 Tạ Quang Bửu, Phường 5, Quận 8, Tp.HCM "
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trường dạy lái xe Đồng Tiến"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 69 Hoàng Hoa Thám, P.6, Q. Bình Thạnh, Tp.HCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Trung Tâm Dạy Lái Xe Phú Mỹ Hưng "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ: 252 Khánh Hội, Phường 6, Quận 4, TP. HCM"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="TRUNG TÂM ĐÀO TẠO VÀ SÁT HẠCH LÁI XE THÀNH CÔNG"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Địa chỉ:  705 Nguyễn Văn Tạo, Ấp 1, Xã Long Thới, Huyện Nhà Bè, TP.HCM"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContainerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Tra cứu luật giao thông"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="1. Chở người trên buồng lái quá số lượng quy định"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 400.000 đồng đến 600.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="2. Điều khiển xe ô tô chở hành khách, ô tô chở người chở quá từ 2 người trở lên trên xe đêến 9 chỗ, chở quá từ 3 người trở lên trên xe 10 chỗ đến xe 15 chỗ, chở quá 4 người trở lên trên xe 16 chỗ đến xe 30 chỗ, chở quá 5 người trở lên trên xe trên 30 chỗ"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="-Phạt tiền từ 400.000 đồng đến 600.000 đồng trên mỗi người vượt quá đối với chủ xe là cá nhân\n - Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá đối với chủ xe là tổ chức"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="3. Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển xe ô tô và các loại xe tương tự xe ô tô thực hiện hoặc trực tiếp điều khiển phương tiện thực hiện hành vi chở hành lý, hàng hoá vượt quá kích thước bao ngoài của xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe là cá nhân.\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với chủ xe là tổ chức."
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="4. Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển xe ô tô và các loại xe tương tự xe ô tô thực hiện hoặc trực tiếp điều khiển phương tiện thực hiện hành vi chở hành lý, hàng hoá vượt quá trọng tải theo thiết kế của xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe là cá nhân.\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với chủ xe là tổ chức"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="5. Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô chở hàng trên nóc thùng"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe là cá nhân.\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với chủ xe là tổ chức"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="6. Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô chở hàng vượt quá bề rộng thùng xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe là cá nhân.\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với chủ xe là tổ chức"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="7. Giao phương tiện hoặc để người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô chở hàng vượt phía trước, phía sau thùng xe trên 10% chiều dài xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với chủ xe là cá nhân.\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với chủ xe là tổ chức"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="8. Điều khiển xe ô tô kéo theo xe khác, vật khác"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="9. Điều khiển xe ô tô đẩy xe khác, vật khác."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="10. Không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="11. Chở người trên xe được kéo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="12. Giao phương tiện hoặc để người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô chở hàng vượt khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối vói chủ xe là cá nhân.\n Phạt tiền từ 12.000.000 đồng đến 16.000.000 đồng đối với chủ xe là tổ chức."
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="13. Giao phương tiện hoặc để người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô vượt quá khổ giới hạn của cầu, đướng hoặc chở hàng vượt khổ giới hạn của cầu, đường tham gia giao thông"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối vói chủ xe là cá nhân.\n Phạt tiền từ 12.000.000 đồng đến 16.000.000 đồng đối với chủ xe là tổ chức."
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="14. Chở hàng vượt khuôn khổ giới hạn của cầu, đường ghi trong Giấy phép lưu hành"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="15. Tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng của xe (bao gồm cả hàng hoá trên xe, người được chở trên xe) vượt quá tải trọng của cầu, đường trên 20% đến 50%"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="16. Tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng của xe (bao gồm cả hàng hoá trên xe, người được chở trên xe) vượt quá tải trọng của cầu, đường trên 50% đến 100%"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="17. Có Giấy phép lưu hành còn giá trị sử dụng nhưng tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng trục xe (kể cả hàng hoá trên xe nếu có) vượt quá quy định trong Giấy phép lưu hành"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="18. Tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng của xe (bao gồm cả hàng hoá trên xe, người được chở trên xe) vượt quá tải trọng của cầu, đường trên 100% đến 150%"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 7.000.000 đồng đến 8.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="19. Tổng trọng lượng (khối lượng toàn bộ) của xe hoặc tải trọng của xe (bao gồm cả hàng hoá trên xe, người được chở trên xe) vượt quá tải trọng của cầu, đường trên 150%"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="20. Không chấp hành việc kiểm tra tải trọng, khổ giới hạn khi có tín hiệu, hiệu lệnh yêu cầu kiểm tra tải trọng, khổ giới hạn xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="21. Chuyển tải hoặc dùng các thủ đoạn khác để trốn tránh việc phát hiện xe chở quá tải, quá khổ"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 14.000.000 đồng đến 16.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="22. Sắp xếp, chằng buộc hành lý, hàng hoá không bảo đảm an toàn"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="23. Để rơi hành lý, hàng hoá trên xe xuống đường"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="24. Để hàng hoá trong khoang chở hành khách"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="25. Chở hành lý, hàng hoá vượt quá kích thước bao ngoài của xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="26. Vận chuyển hàng có mùi hôi thối trên xe chở hành khách"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="27. Xếp hành lý, hàng hoá trên xe làm lệch xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="28. Chở hành lý, hàng hoá vượt quá trọng tải theo thiết kế của xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="29. Vận chuyển hàng nguy hiểm, hàng độc hại, dễ cháy, dễ nổ hoặc động vật, hàng hoá khác có ảnh hưởng đến sức khoẻ của hành khách trên xe có chở hành khách"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="30. Chở người trên mui xe, nóc xe, trong khoang chở hành lý của xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="31. Vận chuyển hàng trên xe phải chằng buộc nhưng không chằng buộc hoặc chằng buộc không chắc chắn"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="32. Điều khiển xe xếp hàng trên nóc buồng lái, xếp hàng làm lệch xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 600.000 đồng đến 800.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="33. Chở hàng trên nóc thùng xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="34. Chở hàng vượt quá bề rộng thùng xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="35. Chở hàng vượt phía trước, phía sau thùng xe trên 10% chiều dài xe"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="36. Để người nằm, ngồi trên mui xe, đu bám bên ngoài xe khi xe đang chạy, đu bám bên ngoài xe khi xe đang chạy."
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp"
+                    android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                    android:textColor="@color/design_default_color_error"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

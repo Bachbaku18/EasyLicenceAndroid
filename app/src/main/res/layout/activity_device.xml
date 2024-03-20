@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeviceActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Tra cứu luật giao thông"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="1. Bán biển số xe ô tô và các loại xe tương tự xe ô tô không phải là biển số do cơ quan nhà nước có thẩm quyền sản xuất hoặc không được cơ quan nhà nước có thẩm quyền cho phép"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với cá nhân\n Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đói với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="2. Sản xuất biển số trái phép hoặc sản xuất, lắp ráp trái phép xe ô tô và các loại xe tương tự xe ô tô"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với cá nhân\n Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="3. Lắp kính chắn gió, kính cửa của xe ô tô và các loại xe tương tự xe ô tô không phải là loại kính an toàn"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với cá nhân \n Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="4. Tự ý thay đổi màu sơn của xe không đúng với màu sơn ghi trong Giấy đăng kí xe ô tô và các loại xe tương tự xe ô tô"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với cá nhân \n Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="5. Tự ý hàn, đục lại số khung, số máy xe ô tô và các loại xe tương tự ô tô"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với cá nhân\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="6. Đưa xe ô tô và các loại xe tương tự xe ô tô đã bị cắt, hàn, đục lại số khung, số máy trái quy định tham gia giao thông"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với cá nhân\n Phạt tiền từ 4.000.000 đồng đến 8.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="7. Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 19 giờ đến 5 giờ ngày hôm sau, khi sương mù, thời tiết xấu hạn chế tầm nhìn."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="8. Sử dụng đèn chiếu xa khi tránh xe đi ngược chiều"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="9. Thuê, mượn linh kiện, phụ kiện của xe ô tô khi kiểm định."
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="10. Đưa xe ô tô và các loại xe tương tự xe ô tô không gắn biển số (đối với xe có quy định phải gắn biển số) tham gia giao thông"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="11. Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="12. Đưa xe ô tô và các loại xe tương tự xe ô tô gắn biển số không đúng với Giấy đăng kí xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp tham gia giao thông"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="13. Lắp đặt, sử dụng thiết bị thay đổi biển số trên xe ô tô và các loại xe tương tự xe ô tô trái quy định"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="14. Tự ý thay đổi tổng thành khung, tổng thành máy, hệ thống phanh, hệ thống truyền động hoặc tự ý cải tạo kết cấu, hình dáng , kích thước của xe ô tô và các loại xe tương tự xe ô tô không đúng thiết kế của nhà sản xuất hoặc thiết kế đã đăng kí với cơ quan đăng kí xe hoi"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với cá nhân\n Phạt tiền từ 12.000.000 dồng đến 16.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="15. Tư ý thay đổi tính năng sử dụng của xe ô tô và các loại xe tương tự xe ô tô"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 12.000.000 đồng đến 16.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="16. Cải tạo các xe ô tô khác thành xe ô tô chở khách"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 12.000.000 đồng đến 16.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="17. Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển hoặc trực tiếp điều khiển xe ô tô và các loại xe tương tự xe ô tô chở hành khách không gắn phù hiệu (biển hiệu) theo quy định hoặc sử dụng phù hiệu (biển hiệu) không do cơ quan có thẩm quyền cấp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với chủ xe là cá nhân \n Phạt tiền từ 12.000.000 đồng đến 16.000.000 đồng đối với tổ chức"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="18. Điều khiển xe không có kính chắn gió hoặc có nhưng vỡ hoặc không có tác dụng (với xe có thiết kế kính chắn gió)"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 100.000 đồng đến 200.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="19. Điều khiển xe không có đủ các thiết bị hỗ trợ hoặc có nhưng không có tác dụng , không đúng với tiêu chuẩn thiết kế"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 300.000 đồng đến 400.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="20. Điều khiển xe không có còi hoặc còi không có tác dụng"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 300.000 đồng đến 400.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="21. Điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không đảm bảo quy chuẩn của môi trường về khí thải, tiếng ồn"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 300.000 đồng đến 400.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="22. Điều khiển xe lắp thêm đèn phía trước, phía sau, trên nóc, dưới gầm, một hoặc cả hai bên thành xe"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="23. Điều khiển xe có hệ thống chuyển hướng của xe không đúng tiêu chuẩn về an toàn kĩ thuật"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="24. Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, biển số không rõ chữ, sô, biển số bị cong, bị che lấp, bị hỏng"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Phạt tiền từ 800.000 đồng đến 1.000.000 đồng"
+                android:textColor="@color/design_default_color_error"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
