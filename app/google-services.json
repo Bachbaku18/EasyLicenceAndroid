@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460258054274",
+    "project_id": "easylicence-b4de7",
+    "storage_bucket": "easylicence-b4de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460258054274:android:2896d022f987c89a1b649b",
+        "android_client_info": {
+          "package_name": "com.example.easylicence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxAMqQeYD8l19jQB9J7LdCv8lUzGnEHcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -120,7 +120,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:id="@+id/Home"
+                android:id="@+id/LawCard"
                 app:cardElevation="20dp"
                 app:cardCornerRadius="20dp">
                 <RelativeLayout
@@ -129,17 +129,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/homeName"
-                        android:text="Home"
+                        android:id="@+id/Law"
+                        android:text="Law"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/homeImage"/>
+                        android:layout_below="@+id/lawImage"/>
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:id="@+id/homeImage"
+                        android:id="@+id/lawImage"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
                 </RelativeLayout>
@@ -149,7 +149,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:id="@+id/Quest"
+                android:id="@+id/ContactCard"
                 app:cardElevation="20dp"
                 app:cardCornerRadius="20dp">
                 <RelativeLayout
@@ -158,17 +158,17 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/questName"
-                        android:text="Quest"
+                        android:id="@+id/Contact"
+                        android:text="Contact"
                         android:textSize="20sp"
                         android:textColor="@color/lavender"
                         android:layout_marginTop="10dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/questImage"/>
+                        android:layout_below="@+id/contactImage"/>
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:id="@+id/questImage"
+                        android:id="@+id/contactImage"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
                 </RelativeLayout>

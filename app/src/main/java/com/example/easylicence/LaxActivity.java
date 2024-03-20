@@ -1,4 +1,4 @@
-package com.example.lawtraffic;
+package com.example.easylicence;
 
 import androidx.appcompat.app.AppCompatActivity;
 
