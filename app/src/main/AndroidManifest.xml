@@ -13,6 +13,45 @@
         android:theme="@style/Theme.EasyLicence"
         tools:targetApi="31">
         <activity
+            android:name=".ParkingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrafficSignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HornActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeviceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContainerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeDirectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlcoholActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LawActivity"
+            android:exported="false" />
+        <activity
             android:name=".RandomQuizActivity"
             android:exported="false" />
         <activity

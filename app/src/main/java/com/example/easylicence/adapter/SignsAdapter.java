@@ -2,21 +2,23 @@ package com.example.easylicence.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.easylicence.R;
-import com.example.easylicence.ViewsHolder.MySignsViewHolder;
 import com.example.easylicence.models.TrafficSigns;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SignsAdapter extends RecyclerView.Adapter<MySignsViewHolder> implements Filterable {
+public class SignsAdapter extends RecyclerView.Adapter<SignsAdapter.MySignsViewHolder> implements Filterable {
     Context context;
     private List<TrafficSigns> items;
 
@@ -25,6 +27,19 @@ public class SignsAdapter extends RecyclerView.Adapter<MySignsViewHolder> implem
         this.context = context;
         this.items = items;
         this.itemsOld = items;
+
+    }
+    public class MySignsViewHolder extends RecyclerView.ViewHolder{
+
+        public ImageView imageView;
+        public TextView codeView;
+        public TextView nameView;
+        public MySignsViewHolder(@NonNull View itemView) {
+            super(itemView);
+            imageView = itemView.findViewById(R.id.imageview);
+            codeView = itemView.findViewById(R.id.code);
+            nameView = itemView.findViewById(R.id.name);
+        }
     }
 
     @NonNull

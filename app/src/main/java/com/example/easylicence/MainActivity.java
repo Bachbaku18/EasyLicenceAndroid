@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         law.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, AlcoholActivity.class);
+                Intent intent = new Intent(MainActivity.this, LawActivity.class);
                 startActivity(intent);
             }
         });

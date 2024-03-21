@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LaxActivity" >
+    tools:context=".LawActivity" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".LawActivity">
 
         <TextView
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:rowCount="4">
 
             <LinearLayout
-                android:id="@+id/hieulenh"
+                android:id="@+id/traffic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -51,6 +51,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ChangeDirect"
                 android:layout_width="133dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -72,6 +73,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/parking"
                 android:layout_width="141dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -93,6 +95,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/horn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -114,6 +117,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id ="@+id/speed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -135,6 +139,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/contain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -156,6 +161,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/device"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -177,6 +183,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Road"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -198,6 +205,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id ="@+id/Alcohol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -219,6 +227,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/Paper"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -240,6 +249,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/other"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
@@ -262,4 +272,4 @@
         </GridLayout>
 
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
