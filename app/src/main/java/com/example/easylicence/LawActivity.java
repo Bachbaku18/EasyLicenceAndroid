@@ -79,7 +79,7 @@ public class LawActivity extends AppCompatActivity {
        Road.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent picture_intent = new Intent(LawActivity.this, RoadActitvity.class);
+                Intent picture_intent = new Intent(LawActivity.this, RoadActivity.class);
                 startActivity(picture_intent );
             }
         });
